@@ -1,0 +1,392 @@
+
+.container.data-v-10201d82 {
+    min-height: 100vh;
+    background: #f5f7fa;
+    padding: 20rpx;
+}
+
+/* 页面头部 */
+.page-header.data-v-10201d82 {
+    background: linear-gradient(135deg, #1a237e 0%, #283593 100%);
+    border-radius: 20rpx;
+    padding: 40rpx 30rpx;
+    margin-bottom: 30rpx;
+    color: white;
+}
+.header-content.data-v-10201d82 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.page-badge.data-v-10201d82 {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 8rpx 16rpx;
+    border-radius: 20rpx;
+    font-size: 24rpx;
+    margin-bottom: 20rpx;
+}
+.page-title.data-v-10201d82 {
+    font-size: 36rpx;
+    font-weight: 600;
+    margin-bottom: 10rpx;
+}
+.page-subtitle.data-v-10201d82 {
+    font-size: 28rpx;
+    opacity: 0.9;
+    text-align: center;
+}
+
+/* 操作栏 */
+.action-bar.data-v-10201d82 {
+    margin-bottom: 30rpx;
+}
+.smart-create-btn.data-v-10201d82 {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    border: none;
+    padding: 24rpx 32rpx;
+    border-radius: 16rpx;
+    font-size: 28rpx;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 16rpx;
+    width: 100%;
+    justify-content: center;
+}
+.smart-create-btn.large.data-v-10201d82 {
+    padding: 32rpx 40rpx;
+    font-size: 32rpx;
+}
+.btn-icon.data-v-10201d82 {
+    font-size: 32rpx;
+}
+.btn-text.data-v-10201d82 {
+    flex: 1;
+    text-align: center;
+}
+
+/* 面试列表 */
+.cards-container.data-v-10201d82 {
+    display: flex;
+    flex-direction: column;
+    gap: 30rpx;
+}
+.interview-card.data-v-10201d82 {
+    background: white;
+    border-radius: 20rpx;
+    padding: 30rpx;
+    border-left: 8rpx solid #e2e8f0;
+    box-shadow: 0 4rpx 20rpx rgba(0, 0, 0, 0.08);
+}
+.interview-card.status-pending.data-v-10201d82 {
+    border-left-color: #f59e0b;
+}
+.interview-card.status-completed.data-v-10201d82 {
+    border-left-color: #10b981;
+}
+.interview-card.status-offer.data-v-10201d82 {
+    border-left-color: #3b82f6;
+}
+.interview-card.status-rejected.data-v-10201d82 {
+    border-left-color: #ef4444;
+}
+
+/* 卡片头部 */
+.card-header.data-v-10201d82 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 20rpx;
+}
+.company-info.data-v-10201d82 {
+    display: flex;
+    align-items: center;
+    gap: 20rpx;
+}
+.company-logo.data-v-10201d82 {
+    width: 80rpx;
+    height: 80rpx;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border-radius: 16rpx;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 32rpx;
+    font-weight: 600;
+}
+.company-details.data-v-10201d82 {
+    display: flex;
+    flex-direction: column;
+}
+.company-name.data-v-10201d82 {
+    font-size: 32rpx;
+    font-weight: 600;
+    color: #1e293b;
+    margin-bottom: 4rpx;
+}
+.position-name.data-v-10201d82 {
+    font-size: 26rpx;
+    color: #64748b;
+}
+.status-badge.data-v-10201d82 {
+    padding: 8rpx 16rpx;
+    border-radius: 20rpx;
+    font-size: 24rpx;
+    font-weight: 500;
+}
+.status-badge.status-pending.data-v-10201d82 {
+    background: #fef3c7;
+    color: #92400e;
+}
+.status-badge.status-completed.data-v-10201d82 {
+    background: #d1fae5;
+    color: #065f46;
+}
+.status-badge.status-offer.data-v-10201d82 {
+    background: #dbeafe;
+    color: #1e40af;
+}
+.status-badge.status-rejected.data-v-10201d82 {
+    background: #fee2e2;
+    color: #991b1b;
+}
+
+/* 卡片内容 */
+.card-body.data-v-10201d82 {
+    margin-bottom: 20rpx;
+}
+.info-row.data-v-10201d82 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12rpx;
+}
+.label.data-v-10201d82 {
+    font-size: 26rpx;
+    color: #64748b;
+    font-weight: 500;
+}
+.value.data-v-10201d82 {
+    font-size: 26rpx;
+    color: #1e293b;
+}
+
+/* 卡片操作 */
+.card-actions.data-v-10201d82 {
+    display: flex;
+    gap: 20rpx;
+}
+.action-btn.data-v-10201d82 {
+    flex: 1;
+    padding: 16rpx 24rpx;
+    border: 2rpx solid #e2e8f0;
+    border-radius: 12rpx;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8rpx;
+    font-size: 24rpx;
+}
+.action-btn.simulate.data-v-10201d82 {
+    border-color: #3b82f6;
+    color: #3b82f6;
+}
+.action-btn.edit.data-v-10201d82 {
+    border-color: #10b981;
+    color: #10b981;
+}
+.action-btn.delete.data-v-10201d82 {
+    border-color: #ef4444;
+    color: #ef4444;
+}
+.action-icon.data-v-10201d82 {
+    font-size: 24rpx;
+}
+.action-text.data-v-10201d82 {
+    font-size: 24rpx;
+}
+
+/* 空状态 */
+.empty-state.data-v-10201d82 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 100rpx 0;
+    text-align: center;
+}
+.empty-icon.data-v-10201d82 {
+    font-size: 120rpx;
+    margin-bottom: 30rpx;
+    opacity: 0.5;
+}
+.empty-title.data-v-10201d82 {
+    font-size: 32rpx;
+    font-weight: 600;
+    color: #1e293b;
+    margin-bottom: 10rpx;
+}
+.empty-desc.data-v-10201d82 {
+    font-size: 26rpx;
+    color: #64748b;
+    margin-bottom: 40rpx;
+}
+
+/* 模态框 */
+.modal-overlay.data-v-10201d82 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+.smart-create-modal.data-v-10201d82 {
+    background: white;
+    border-radius: 20rpx;
+    width: 90vw;
+    max-height: 80vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+.modal-header.data-v-10201d82 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30rpx;
+    border-bottom: 2rpx solid #f1f5f9;
+}
+.modal-title.data-v-10201d82 {
+    font-size: 32rpx;
+    font-weight: 600;
+    color: #1e293b;
+}
+.close-btn.data-v-10201d82 {
+    background: none;
+    border: none;
+    font-size: 32rpx;
+    color: #64748b;
+    padding: 8rpx;
+}
+.modal-body.data-v-10201d82 {
+    flex: 1;
+    padding: 30rpx;
+    overflow-y: auto;
+}
+
+/* 表单样式 */
+.form-group.data-v-10201d82 {
+    margin-bottom: 30rpx;
+}
+.form-label.data-v-10201d82 {
+    font-size: 28rpx;
+    font-weight: 600;
+    color: #1e293b;
+    margin-bottom: 16rpx;
+    display: block;
+}
+.info-hint.data-v-10201d82 {
+    font-size: 24rpx;
+    color: #64748b;
+    font-weight: normal;
+}
+
+/* 职业分类 */
+.career-categories.data-v-10201d82 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20rpx;
+}
+.category-card.data-v-10201d82 {
+    background: #f8fafc;
+    border: 2rpx solid #e2e8f0;
+    border-radius: 16rpx;
+    padding: 24rpx;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+.category-card.selected.data-v-10201d82 {
+    background: #1a237e;
+    border-color: #1a237e;
+    color: white;
+}
+.category-icon.data-v-10201d82 {
+    font-size: 40rpx;
+    margin-bottom: 8rpx;
+}
+.category-name.data-v-10201d82 {
+    font-size: 26rpx;
+    font-weight: 600;
+    margin-bottom: 4rpx;
+}
+.category-count.data-v-10201d82 {
+    font-size: 22rpx;
+    opacity: 0.7;
+}
+
+/* 选择器样式 */
+.form-picker.data-v-10201d82 {
+    width: 100%;
+}
+.picker-display.data-v-10201d82 {
+    background: #f8fafc;
+    border: 2rpx solid #e2e8f0;
+    border-radius: 12rpx;
+    padding: 20rpx;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 26rpx;
+}
+.picker-arrow.data-v-10201d82 {
+    color: #64748b;
+    font-size: 20rpx;
+}
+
+/* 输入框样式 */
+.form-input.data-v-10201d82 {
+    width: 100%;
+    background: #f8fafc;
+    border: 2rpx solid #e2e8f0;
+    border-radius: 12rpx;
+    padding: 20rpx;
+    font-size: 26rpx;
+}
+
+/* 模态框底部 */
+.modal-footer.data-v-10201d82 {
+    display: flex;
+    gap: 20rpx;
+    padding: 30rpx;
+    border-top: 2rpx solid #f1f5f9;
+}
+.btn-cancel.data-v-10201d82 {
+    flex: 1;
+    background: #f1f5f9;
+    border: none;
+    padding: 24rpx;
+    border-radius: 12rpx;
+    font-size: 28rpx;
+    color: #64748b;
+}
+.btn-confirm.data-v-10201d82 {
+    flex: 1;
+    background: #1a237e;
+    border: none;
+    padding: 24rpx;
+    border-radius: 12rpx;
+    font-size: 28rpx;
+    color: white;
+}
+.btn-confirm.data-v-10201d82:disabled {
+    background: #cbd5e1;
+    color: #64748b;
+}

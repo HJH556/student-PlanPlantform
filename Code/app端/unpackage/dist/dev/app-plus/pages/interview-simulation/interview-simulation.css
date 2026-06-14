@@ -1,0 +1,452 @@
+
+.container[data-v-299bdcf8] {
+    min-height: 100vh;
+    background: #f5f7fa;
+    padding: 0.625rem;
+}
+
+/* 页面头部 */
+.page-header[data-v-299bdcf8] {
+    background: linear-gradient(135deg, #1a237e 0%, #283593 100%);
+    border-radius: 0.625rem;
+    padding: 1.25rem 0.9375rem;
+    margin-bottom: 0.9375rem;
+    color: white;
+}
+.header-content[data-v-299bdcf8] {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.page-badge[data-v-299bdcf8] {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.625rem;
+    font-size: 0.75rem;
+    margin-bottom: 0.625rem;
+}
+.page-title[data-v-299bdcf8] {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 0.3125rem;
+    text-align: center;
+}
+.page-subtitle[data-v-299bdcf8] {
+    font-size: 0.8125rem;
+    opacity: 0.9;
+    text-align: center;
+}
+
+/* AI状态显示 */
+.ai-status-section[data-v-299bdcf8] {
+    margin-bottom: 0.9375rem;
+}
+.ai-status[data-v-299bdcf8] {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.625rem;
+    border-radius: 0.5rem;
+    font-size: 0.8125rem;
+    gap: 0.375rem;
+}
+.ai-status.ai-enabled[data-v-299bdcf8] {
+    background: #d1fae5;
+    color: #065f46;
+    border: 0.0625rem solid #10b981;
+}
+.ai-status.ai-disabled[data-v-299bdcf8] {
+    background: #fef3c7;
+    color: #92400e;
+    border: 0.0625rem solid #f59e0b;
+}
+.status-icon[data-v-299bdcf8] {
+    font-size: 0.875rem;
+}
+.status-text[data-v-299bdcf8] {
+    font-weight: 500;
+}
+.status-hint[data-v-299bdcf8] {
+    font-size: 0.6875rem;
+    opacity: 0.8;
+}
+
+/* 准备阶段样式 */
+.preparation-section[data-v-299bdcf8] {
+    margin-bottom: 0.9375rem;
+}
+.preparation-card[data-v-299bdcf8] {
+    background: white;
+    border-radius: 0.625rem;
+    padding: 1.25rem 0.9375rem;
+    text-align: center;
+    box-shadow: 0 0.125rem 0.625rem rgba(0, 0, 0, 0.08);
+}
+.preparation-title[data-v-299bdcf8] {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #1e293b;
+    margin-bottom: 0.5rem;
+}
+.preparation-desc[data-v-299bdcf8] {
+    font-size: 0.8125rem;
+    color: #64748b;
+    margin-bottom: 0.9375rem;
+    line-height: 1.5;
+}
+.preparation-info[data-v-299bdcf8] {
+    background: #f8fafc;
+    border-radius: 0.375rem;
+    padding: 0.75rem;
+    margin-bottom: 0.9375rem;
+}
+.info-item[data-v-299bdcf8] {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.375rem;
+}
+.info-item[data-v-299bdcf8]:last-child {
+    margin-bottom: 0;
+}
+.info-label[data-v-299bdcf8] {
+    font-size: 0.8125rem;
+    color: #64748b;
+    font-weight: 500;
+}
+.info-value[data-v-299bdcf8] {
+    font-size: 0.8125rem;
+    color: #1e293b;
+    font-weight: 600;
+}
+.start-interview-btn[data-v-299bdcf8] {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    border: none;
+    padding: 0.75rem 1rem;
+    border-radius: 0.5rem;
+    font-size: 0.875rem;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    width: 100%;
+}
+.start-interview-btn[data-v-299bdcf8]:disabled {
+    background: #cbd5e1;
+    color: #64748b;
+}
+
+/* 面试进行中样式 */
+.interview-section[data-v-299bdcf8] {
+    display: flex;
+    flex-direction: column;
+    gap: 0.9375rem;
+}
+.current-question-section[data-v-299bdcf8] {
+    background: white;
+    border-radius: 0.625rem;
+    padding: 0.9375rem;
+    box-shadow: 0 0.125rem 0.625rem rgba(0, 0, 0, 0.08);
+}
+.question-header[data-v-299bdcf8] {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.625rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 0.0625rem solid #f1f5f9;
+}
+.question-number[data-v-299bdcf8] {
+    font-size: 0.75rem;
+    color: #64748b;
+    font-weight: 500;
+}
+.question-type[data-v-299bdcf8] {
+    background: #e0f2fe;
+    color: #0288d1;
+    padding: 0.125rem 0.375rem;
+    border-radius: 0.375rem;
+    font-size: 0.625rem;
+}
+.question-difficulty[data-v-299bdcf8] {
+    background: #fff3e0;
+    color: #f57c00;
+    padding: 0.125rem 0.375rem;
+    border-radius: 0.375rem;
+    font-size: 0.625rem;
+}
+.question-content[data-v-299bdcf8] {
+    margin-bottom: 0.9375rem;
+}
+.question-text[data-v-299bdcf8] {
+    font-size: 0.875rem;
+    color: #1e293b;
+    line-height: 1.6;
+    font-weight: 500;
+}
+
+/* 回答区域 */
+.answer-section[data-v-299bdcf8] {
+    margin-bottom: 0.9375rem;
+}
+.answer-label[data-v-299bdcf8] {
+    font-size: 0.8125rem;
+    color: #1e293b;
+    font-weight: 500;
+    margin-bottom: 0.375rem;
+    display: block;
+}
+.answer-input[data-v-299bdcf8] {
+    width: 100%;
+    min-height: 6.25rem;
+    background: #f8fafc;
+    border: 0.0625rem solid #e2e8f0;
+    border-radius: 0.375rem;
+    padding: 0.625rem;
+    font-size: 0.8125rem;
+    line-height: 1.5;
+}
+.answer-length[data-v-299bdcf8] {
+    font-size: 0.6875rem;
+    color: #64748b;
+    text-align: right;
+    margin-top: 0.25rem;
+}
+
+/* 操作按钮 */
+.action-buttons[data-v-299bdcf8] {
+    display: flex;
+    gap: 0.625rem;
+}
+.action-btn[data-v-299bdcf8] {
+    flex: 1;
+    padding: 0.625rem 0.75rem;
+    border: none;
+    border-radius: 0.375rem;
+    font-size: 0.8125rem;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.375rem;
+}
+.evaluate-btn[data-v-299bdcf8] {
+    background: #3b82f6;
+    color: white;
+}
+.evaluate-btn[data-v-299bdcf8]:disabled {
+    background: #cbd5e1;
+    color: #64748b;
+}
+.next-btn[data-v-299bdcf8] {
+    background: #10b981;
+    color: white;
+}
+.next-btn[data-v-299bdcf8]:disabled {
+    background: #cbd5e1;
+    color: #64748b;
+}
+
+/* 评估结果 */
+.evaluation-section[data-v-299bdcf8] {
+    background: white;
+    border-radius: 0.625rem;
+    padding: 0.9375rem;
+    box-shadow: 0 0.125rem 0.625rem rgba(0, 0, 0, 0.08);
+}
+.evaluation-header[data-v-299bdcf8] {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.625rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 0.0625rem solid #f1f5f9;
+}
+.evaluation-title[data-v-299bdcf8] {
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: #1e293b;
+}
+.evaluation-score[data-v-299bdcf8] {
+    font-size: 0.8125rem;
+    font-weight: 600;
+    color: #3b82f6;
+}
+.evaluation-content[data-v-299bdcf8] {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.evaluation-item[data-v-299bdcf8] {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.375rem;
+}
+.item-label[data-v-299bdcf8] {
+    font-size: 0.75rem;
+    color: #64748b;
+    font-weight: 500;
+    min-width: 3.75rem;
+}
+.item-value[data-v-299bdcf8] {
+    font-size: 0.75rem;
+    color: #1e293b;
+    line-height: 1.5;
+    flex: 1;
+}
+
+/* AI助手 */
+.ai-assistant-section[data-v-299bdcf8] {
+    background: white;
+    border-radius: 0.625rem;
+    padding: 0.9375rem;
+    box-shadow: 0 0.125rem 0.625rem rgba(0, 0, 0, 0.08);
+}
+.assistant-header[data-v-299bdcf8] {
+    margin-bottom: 0.5rem;
+}
+.assistant-title[data-v-299bdcf8] {
+    font-size: 0.8125rem;
+    font-weight: 600;
+    color: #1e293b;
+}
+.assistant-content[data-v-299bdcf8] {
+    background: #f8fafc;
+    border-radius: 0.375rem;
+    padding: 0.625rem;
+}
+.assistant-message[data-v-299bdcf8] {
+    font-size: 0.75rem;
+    color: #475569;
+    line-height: 1.6;
+}
+
+/* Markdown样式 */
+.md-h1[data-v-299bdcf8] {
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: #1e293b;
+    margin: 0.625rem 0 0.3125rem;
+}
+.md-h2[data-v-299bdcf8] {
+    font-size: 0.8125rem;
+    font-weight: 600;
+    color: #1e293b;
+    margin: 0.5rem 0 0.25rem;
+}
+.md-h3[data-v-299bdcf8] {
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: #1e293b;
+    margin: 0.375rem 0 0.1875rem;
+}
+.md-p[data-v-299bdcf8] {
+    margin: 0.25rem 0;
+    line-height: 1.6;
+}
+.md-strong[data-v-299bdcf8] {
+    font-weight: 600;
+    color: #1e293b;
+}
+.md-code[data-v-299bdcf8] {
+    background: #f1f5f9;
+    padding: 0.125rem 0.25rem;
+    border-radius: 0.125rem;
+    font-family: 'Courier New', monospace;
+    font-size: 0.6875rem;
+    color: #475569;
+}
+.md-li[data-v-299bdcf8] {
+    margin: 0.125rem 0;
+    padding-left: 0.625rem;
+    position: relative;
+}
+.md-li[data-v-299bdcf8]::before {
+    content: '•';
+    position: absolute;
+    left: 0;
+    color: #64748b;
+}
+.empty-line[data-v-299bdcf8] {
+    height: 0.25rem;
+}
+
+/* 加载状态 */
+.loading-overlay[data-v-299bdcf8] {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+.loading-content[data-v-299bdcf8] {
+    background: white;
+    border-radius: 0.625rem;
+    padding: 1.25rem;
+    text-align: center;
+}
+.loading-spinner[data-v-299bdcf8] {
+    width: 1.875rem;
+    height: 1.875rem;
+    border: 0.125rem solid #f3f4f6;
+    border-top: 0.125rem solid #3b82f6;
+    border-radius: 50%;
+    animation: spin-299bdcf8 1s linear infinite;
+    margin: 0 auto 0.625rem;
+}
+@keyframes spin-299bdcf8 {
+0% { transform: rotate(0deg);
+}
+100% { transform: rotate(360deg);
+}
+}
+.loading-text[data-v-299bdcf8] {
+    font-size: 0.8125rem;
+    color: #64748b;
+}
+
+/* 错误提示 */
+.error-message[data-v-299bdcf8] {
+    background: #fee2e2;
+    border: 0.0625rem solid #ef4444;
+    border-radius: 0.375rem;
+    padding: 0.625rem;
+    display: flex;
+    align-items: center;
+    gap: 0.375rem;
+    margin-bottom: 0.625rem;
+}
+.error-icon[data-v-299bdcf8] {
+    font-size: 0.75rem;
+}
+.error-text[data-v-299bdcf8] {
+    font-size: 0.75rem;
+    color: #991b1b;
+}
+
+/* 通用样式 */
+.btn-icon[data-v-299bdcf8] {
+    font-size: 0.75rem;
+}
+.btn-text[data-v-299bdcf8] {
+    font-size: 0.8125rem;
+}
+.btn-loading[data-v-299bdcf8] {
+    font-size: 0.75rem;
+    animation: pulse-299bdcf8 1.5s infinite;
+}
+@keyframes pulse-299bdcf8 {
+0% { opacity: 1;
+}
+50% { opacity: 0.5;
+}
+100% { opacity: 1;
+}
+}

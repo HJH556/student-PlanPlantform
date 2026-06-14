@@ -1,0 +1,157 @@
+
+.container.data-v-0ed30e59 {
+    min-height: 100vh;
+    background: #f5f7fa;
+}
+.tabs.data-v-0ed30e59 {
+    display: flex;
+    background: white;
+    padding: 20rpx 30rpx;
+    border-bottom: 1rpx solid #e8e8e8;
+}
+.tab-item.data-v-0ed30e59 {
+    flex: 1;
+    text-align: center;
+    padding: 20rpx;
+    font-size: 28rpx;
+    color: #666;
+    position: relative;
+}
+.tab-item.active.data-v-0ed30e59 {
+    color: #667eea;
+    font-weight: 600;
+}
+.tab-item.active.data-v-0ed30e59::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60rpx;
+    height: 6rpx;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border-radius: 3rpx;
+}
+.content-section.data-v-0ed30e59 {
+    padding: 30rpx;
+}
+.applications-list.data-v-0ed30e59 {
+    display: flex;
+    flex-direction: column;
+    gap: 20rpx;
+}
+.application-card.data-v-0ed30e59 {
+    background: white;
+    border-radius: 20rpx;
+    padding: 30rpx;
+    box-shadow: 0 4rpx 16rpx rgba(0, 0, 0, 0.06);
+}
+.card-header.data-v-0ed30e59 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 16rpx;
+}
+.job-info.data-v-0ed30e59 {
+    flex: 1;
+}
+.job-title.data-v-0ed30e59 {
+    font-size: 32rpx;
+    font-weight: 600;
+    color: #333;
+    display: block;
+    margin-bottom: 8rpx;
+}
+.job-salary.data-v-0ed30e59 {
+    font-size: 32rpx;
+    font-weight: 700;
+    color: #f5576c;
+    flex-shrink: 0;
+    margin-left: 20rpx;
+}
+.status-badge.data-v-0ed30e59 {
+    padding: 8rpx 20rpx;
+    border-radius: 20rpx;
+    font-size: 24rpx;
+    flex-shrink: 0;
+}
+.status-pending.data-v-0ed30e59 {
+    background: #fff7e6;
+    color: #fa8c16;
+}
+.status-approved.data-v-0ed30e59 {
+    background: #f6ffed;
+    color: #52c41a;
+}
+.status-rejected.data-v-0ed30e59 {
+    background: #fff1f0;
+    color: #f5222d;
+}
+.job-company.data-v-0ed30e59 {
+    font-size: 26rpx;
+    color: #666;
+    margin-bottom: 16rpx;
+}
+.job-meta.data-v-0ed30e59 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16rpx;
+}
+.meta-item.data-v-0ed30e59 {
+    font-size: 24rpx;
+    color: #999;
+}
+.meta-divider.data-v-0ed30e59 {
+    font-size: 24rpx;
+    color: #e8e8e8;
+    margin: 0 12rpx;
+}
+.apply-time.data-v-0ed30e59 {
+    font-size: 24rpx;
+    color: #ccc;
+}
+.card-actions.data-v-0ed30e59 {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20rpx;
+    padding-top: 20rpx;
+    border-top: 1rpx solid #f0f0f0;
+}
+.action-btn.data-v-0ed30e59 {
+    padding: 16rpx 40rpx;
+    border-radius: 40rpx;
+    font-size: 26rpx;
+    border: none;
+}
+.cancel-btn.data-v-0ed30e59 {
+    background: #f5f5f5;
+    color: #666;
+}
+.empty-state.data-v-0ed30e59, .loading-state.data-v-0ed30e59 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 160rpx;
+}
+.empty-icon.data-v-0ed30e59, .loading-text.data-v-0ed30e59 {
+    font-size: 120rpx;
+    margin-bottom: 30rpx;
+}
+.empty-text.data-v-0ed30e59 {
+    font-size: 32rpx;
+    color: #999;
+    margin-bottom: 16rpx;
+}
+.empty-desc.data-v-0ed30e59 {
+    font-size: 26rpx;
+    color: #ccc;
+    margin-bottom: 40rpx;
+}
+.go-btn.data-v-0ed30e59 {
+    padding: 20rpx 60rpx;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    border-radius: 40rpx;
+    font-size: 28rpx;
+}

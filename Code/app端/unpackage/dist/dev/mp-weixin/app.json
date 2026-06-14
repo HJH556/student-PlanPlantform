@@ -1,0 +1,60 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/index/index",
+    "pages/ai-assistant/ai-assistant",
+    "pages/job-explore/job-explore",
+    "pages/student-profile/student-profile",
+    "pages/user-center/user-center",
+    "pages/job-detail/job-detail",
+    "pages/upload-resume/upload-resume",
+    "pages/edit-profile/edit-profile",
+    "pages/career-plan/career-plan",
+    "pages/interview-prep/interview-prep",
+    "pages/my-applications/my-applications",
+    "pages/my-favorites/my-favorites",
+    "pages/interview-questions/interview-questions",
+    "pages/my-interview/my-interview",
+    "pages/interview-simulation/interview-simulation"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "职业规划系统",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#999999",
+    "selectedColor": "#667eea",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/ai-assistant/ai-assistant",
+        "text": "AI助手"
+      },
+      {
+        "pagePath": "pages/job-explore/job-explore",
+        "text": "岗位探索"
+      },
+      {
+        "pagePath": "pages/student-profile/student-profile",
+        "text": "学生画像"
+      },
+      {
+        "pagePath": "pages/user-center/user-center",
+        "text": "个人中心"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  },
+  "usingComponents": {}
+}

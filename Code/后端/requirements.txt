@@ -1,0 +1,15 @@
+fastapi
+uvicorn
+sqlalchemy
+pydantic
+python-jose[cryptography]
+python-multipart
+passlib[bcrypt]
+alembic
+python-dotenv
+httpx
+neo4j
+langchain
+langchain_community
+dashscope
+pillow
