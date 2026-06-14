@@ -1,0 +1,10 @@
+unpackage/
+dist/
+uploads/
+node_modules/
+__pycache__/
+.env
+.idea/
+.hbuilderx/
+.vscode/
+*.pdf
